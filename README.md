@@ -37,3 +37,21 @@ streamlit run rag.py --server.port 8505
 streamlit run rag_multi.py --server.port 8506
 streamlit run rag_fusion.py --server.port 8507
 ```
+
+## Run the RAG app with local llm and embeddings
+
+Download Ollama
+https://ollama.com/download
+
+
+```
+ollama pull llama3
+ollama run llama3
+
+
+ollama pull all-minilm
+```
+
+```
+streamlit run rag_local.py --server.port 8508
+```
