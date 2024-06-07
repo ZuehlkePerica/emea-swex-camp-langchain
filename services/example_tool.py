@@ -1,6 +1,7 @@
 import pronouncing
 
 
+#Task: Make this method a tool
 def find_rhymes(word) -> str:
     rhymes = pronouncing.rhymes(word)
     if rhymes:
